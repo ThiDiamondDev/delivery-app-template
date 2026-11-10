@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "scheme": "delivery-app",
+    "name": "delivery-app",
+    "slug": "delivery-app-challenge",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "plugins": [
+      "expo-image"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2bce4c71-70dd-4f30-8f39-08eef2f4accd"
+      }
+    }
+  }
+}
